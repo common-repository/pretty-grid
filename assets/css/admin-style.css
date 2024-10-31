@@ -1,0 +1,424 @@
+/* Style the pretty-grid-tab */
+.contact_page_ultimate-addons #wpcontent {
+    background: #fff;
+}
+
+.pretty-grid-admin-cont {
+    padding: 25px 20px 35px;
+    background-color: #fff;
+}
+
+.wrap.pretty-grid-admin-cont h1 {
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.wrap.pretty-grid-admin-cont .sub-head {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.pretty-grid-tab {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #382673;
+	border-bottom: 0
+}
+
+.pretty-grid-tab a {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 17px;
+	color: #fff;
+	border-right: 1px solid #fff
+}
+
+.pretty-grid-tab a:last-child {
+	border-right: 0
+}
+
+.pretty-grid-tab a:hover {
+	background-color: #fff;
+	color: #444
+}
+
+.pretty-grid-tab a.active {
+	background-color: #fff;
+	color: #444
+}
+
+/* Style the pretty-grid-tab content */
+.pretty-grid-tabcontent {
+	display: none;
+	padding: 15px;
+	border: 1px solid #ccc;
+	border-top: none;
+	background-color: #fff
+}
+
+.pretty-grid-tabcontent .form-table {
+	margin-left: 15px
+}
+
+.pretty-grid-tabcontent h2 {
+    font-size: 25px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-left: 15px;
+    color: #361a94;
+}
+
+.pretty-grid-tabcontent input#submit {
+    margin-left: 15px;
+    background: #382673;
+    padding: 6px 40px;
+    font-size: 17px;
+}
+
+.pretty-grid-tabcontent input#submit:hover {
+    background: #181031;
+}
+
+.pretty-grid-post-sub-pro-link a, .pretty-grid-repeater-field a, .pretty-grid-ip-get-field a, .pretty-grid-pro-link a {
+    text-decoration: none;
+	margin-left: 10px;
+}
+
+.pretty-grid-post-sub-pro-link a:hover, .pretty-grid-repeater-field a:hover, .pretty-grid-ip-get-field a:hover, .pretty-grid-pro-link a:hover {
+    color: #333!important;
+}
+
+.pretty-grid-tabcontent .form-table th {
+    font-size: 18px;
+    padding-bottom: 28px;
+    padding-top: 28px;
+}
+
+.multistep_fields_row {
+	width: 100%;
+	display: inline-block;
+	padding: 15px 0 15px 15px;
+	background: #fff;
+	margin-top: 12px;
+	clear: both;
+}
+
+.col-25 .multistep_field_column {
+	width: 25%;
+	float: left;
+	display: inline-block
+}
+
+.col-50 .multistep_field_column {
+	width: 50%;
+	float: left;
+	display: inline-block
+}
+
+.show-if-left-progressbar button,
+.show-if-style-6 button,
+.show-if-pro button {
+	pointer-events: none
+}
+
+/** Documentation Tab CSS **/
+.tfic-docs-wrap .tfic-row {
+    display: flex;
+    margin: 30px 0
+}
+.tfic-docs-wrap .sub-heading {
+    font-size: 15px;
+}
+.tfic-single-docs {
+    margin-right: 20px;
+    flex-basis: 100%;
+    background: #fff;
+    background-color: #fff;
+    border-radius: 0.35em;
+    padding: 30px;
+    border: 1px solid #d5d5d5;
+}
+
+.tfic-single-docs span {
+    font-size: 13px;
+    background: green;
+    color: #fff;
+    padding: 2px 5px;
+    border-radius: 4px;
+    float: right;
+}
+
+.tfic-single-docs span.pretty-grid-pro {
+    background: #b60020;
+}
+
+.tfic-single-docs h4 {
+    font-size: 23px;
+    margin: 0;
+	line-height: 1.35;
+}
+
+/** Button css **/
+.tfic-btn  {
+    border: 1px solid #382673;
+    border-radius: 4px;
+    color: #fff;
+    background: #382673;
+    text-decoration: none;
+    padding:10px 20px;
+    display: inline-block;
+    margin-top:10px;
+    margin-right: 12px;
+    text-align: center;
+}
+.demo-btn {
+    background: #fff;
+    color: #382673;
+}
+.tfic-active {
+    background:#ccc;
+    color:#000;
+    border: 1px solid #ccc;
+}
+.tfic-btn:hover  {
+    border: 1px solid #100058;
+    background: #100058;
+    color:#fff;
+}
+.tfic-active:hover {
+    background:#ccc;
+    color:#000;
+    border: 1px solid #ccc;
+}
+
+/** Admin Toggle CSS **/
+.pretty-grid-admin-toggle {
+    display: inline-block;
+}
+  .pretty-grid-admin-toggle:last-of-type {
+	margin: 0;
+  }
+
+  .pretty-grid-admin-toggle__input {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  .pretty-grid-admin-toggle-track {
+    background: #fff;
+    border: 2px solid #777f92;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    height: 28px;
+    position: relative;
+    width: 60px;
+  }
+
+
+  .pretty-grid-admin-toggle-indicator {
+    align-items: center;
+    background: #777f92;
+    border-radius: 24px;
+    bottom: 2px;
+    display: flex;
+    height: 24px;
+    justify-content: center;
+    left: 2px;
+    outline: solid 2px transparent;
+    position: absolute;
+    transition: 0.25s;
+    width: 24px;
+  }
+
+  .checkMark {
+    fill: #fff;
+    height: 20px;
+    width: 20px;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+  }
+
+  .pretty-grid-admin-toggle__input:checked + .pretty-grid-admin-toggle-track .pretty-grid-admin-toggle-indicator {
+    background: #06af00;
+    transform: translateX(30px);
+  }
+
+  .pretty-grid-admin-toggle__input:checked + .pretty-grid-admin-toggle-track {
+	  border: 2px solid #06af00;
+  }
+  .pretty-grid-admin-toggle-track:hover, .pretty-grid-admin-toggle__input:checked + .pretty-grid-admin-toggle-track:hover {
+	  opacity: 0.75;
+  }
+  .pretty-grid-admin-toggle__input:checked + .pretty-grid-admin-toggle-track .pretty-grid-admin-toggle-indicator .checkMark {
+    opacity: 1;
+    transition: opacity 0.25s ease-in-out;
+  }
+
+  /** Addon Tabs **/
+  #pretty-grid-redirect-panel-tab,
+  #pretty-grid-cf-panel-tab,
+  #pretty-grid-placeholder-panel-tab,
+  #pretty-grid-multistep-panel-tab,
+  #pretty-grid-prettygridstyle-panel-tab,
+  #pretty-grid-range-slider-panel-tab,
+  #pretty-grid-auto-product-cart-panel-tab,
+  #pretty-grid-post-submission-panel-tab {
+    border: 2px solid #473080!important;
+    background: #fff!important;
+  }
+
+  #pretty-grid-redirect-panel-tab a,
+  #pretty-grid-cf-panel-tab a,
+  #pretty-grid-placeholder-panel-tab a,
+  #pretty-grid-multistep-panel-tab a,
+  #pretty-grid-prettygridstyle-panel-tab a,
+  #pretty-grid-range-slider-panel-tab a,
+  #pretty-grid-auto-product-cart-panel-tab a,
+  #pretty-grid-post-submission-panel-tab a {
+    font-weight: bold!important;
+    color: #473080!important;
+  }
+
+  #pretty-grid-redirect-panel-tab:hover,
+  #pretty-grid-cf-panel-tab:hover,
+  #pretty-grid-placeholder-panel-tab:hover,
+  #pretty-grid-multistep-panel-tab:hover,
+  #pretty-grid-prettygridstyle-panel-tab:hover,
+  #pretty-grid-range-slider-panel-tab:hover,
+  #pretty-grid-auto-product-cart-panel-tab:hover,
+  #pretty-grid-post-submission-panel-tab:hover {
+    border: 2px solid #281266!important;
+    background: #281266!important;
+  }
+
+  #pretty-grid-redirect-panel-tab:hover a,
+  #pretty-grid-cf-panel-tab:hover a,
+  #pretty-grid-placeholder-panel-tab:hover a,
+  #pretty-grid-multistep-panel-tab:hover a,
+  #pretty-grid-prettygridstyle-panel-tab:hover a,
+  #pretty-grid-range-slider-panel-tab:hover a,
+  #pretty-grid-auto-product-cart-panel-tab:hover a,
+  #pretty-grid-post-submission-panel-tab:hover a,
+  #pretty-grid-redirect-panel-tab.ui-tabs-active a,
+ #pretty-grid-cf-panel-tab.ui-tabs-active a,
+ #pretty-grid-placeholder-panel-tab.ui-tabs-active a,
+ #pretty-grid-multistep-panel-tab.ui-tabs-active a,
+ #pretty-grid-prettygridstyle-panel-tab.ui-tabs-active a,
+ #pretty-grid-range-slider-panel-tab.ui-tabs-active a,
+ #pretty-grid-auto-product-cart-panel-tab.ui-tabs-active a,
+ #pretty-grid-post-submission-panel-tab.ui-tabs-active a {
+    color: #fff!important;
+  }
+
+ /** Addon Tabs **/
+ #pretty-grid-redirect-panel-tab.ui-tabs-active,
+ #pretty-grid-cf-panel-tab.ui-tabs-active,
+ #pretty-grid-placeholder-panel-tab.ui-tabs-active,
+ #pretty-grid-multistep-panel-tab.ui-tabs-active,
+ #pretty-grid-prettygridstyle-panel-tab.ui-tabs-active,
+ #pretty-grid-range-slider-panel-tab.ui-tabs-active,
+ #pretty-grid-auto-product-cart-panel-tab.ui-tabs-active,
+ #pretty-grid-post-submission-panel-tab.ui-tabs-active {
+   border: 2px solid #473080!important;
+   background: #473080!important;
+ }
+
+
+  /** Addon Tab Inner **/
+
+#pretty-grid-redirect-panel,
+#pretty-grid-auto-product-cart-panel,
+#pretty-grid-bf-panel,
+#pretty-grid-cf-panel,
+#pretty-grid-placeholder-panel,
+#pretty-grid-multistep-panel,
+#pretty-grid-prettygridstyle-panel,
+#pretty-grid-range-slider-panel,
+#pretty-grid-post-submission-panel {
+  background: #fff!important;
+  padding: 20px 50px 50px!important;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#pretty-grid-redirect-panel h2,
+#pretty-grid-auto-product-cart-panel h2,
+#pretty-grid-bf-panel h2,
+#pretty-grid-cf-panel h2,
+#pretty-grid-placeholder-panel h2,
+#pretty-grid-multistep-panel h2,
+#pretty-grid-prettygridstyle-panel h2,
+#pretty-grid-range-slider-panel h2,
+#pretty-grid-post-submission-panel h2 {
+  font-size: 20px!important;
+  font-weight: 600!important;
+  line-height: 1.5!important;
+}
+
+#pretty-grid-redirect-panel p,
+#pretty-grid-auto-product-cart-panel p,
+#pretty-grid-bf-panel p,
+#pretty-grid-cf-panel p,
+#pretty-grid-placeholder-panel p,
+#pretty-grid-multistep-panel p,
+#pretty-grid-prettygridstyle-panel p,
+#pretty-grid-range-slider-panel p,
+#pretty-grid-post-submission-panel p {
+  font-size: 16px!important;
+  line-height: 1.5!important;
+}
+
+.pretty-grid-doc-notice {
+  background: #e3f3ff;
+  margin-top: 25px;
+  font-size: 14px;
+  padding: 10px 20px 15px;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+
+.pretty-grid-guide {
+  background: #ffd7c287;
+}
+
+.pretty-grid-doc-notice a {
+  text-decoration: none;
+  color: #473080;
+  font-weight: bold;
+}
+
+.pretty-grid-doc-notice a:hover {
+  color: #000;
+}
+
+.pretty-grid-doc-notice:before {
+  content: "\f14c";
+  font-family: dashicons;
+  font-size: 18px;
+  padding-right: 8px;
+}
+
+.pretty-grid-guide:before {
+  content: "\f130";
+  font-family: dashicons;
+  font-size: 18px;
+  padding-right: 8px;
+}
+
+  @media screen and (-ms-high-contrast: active) {
+	.pretty-grid-admin-toggle-track {
+	  border-radius: 0;
+	}
+  }
